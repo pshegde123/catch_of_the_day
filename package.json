@@ -1,7 +1,6 @@
 {
   "name": "cotd",
   "version": "0.0.3",
-  "homepage": "https://pshegde123.github.io/catch_of_the_day",
   "private": true,
   "devDependencies": {
     "concurrently": "6.4.0",
@@ -20,9 +19,7 @@
     "serve": "13.0.2",
     "stylus": "0.55.0"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "scripts": {   
     "dev": "react-scripts start",
     "start": "react-scripts --openssl-legacy-provider start",
     "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
