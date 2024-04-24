@@ -1,7 +1,7 @@
 {
   "name": "cotd",
   "version": "0.0.3",
-  "homepage": "https://pshegde123.github.io/catch-of-the-day",
+  "homepage": "https://pshegde123.github.io/catch_of_the_day",
   "private": true,
   "devDependencies": {
     "concurrently": "6.4.0",
